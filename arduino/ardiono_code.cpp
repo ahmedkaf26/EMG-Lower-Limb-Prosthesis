@@ -1,10 +1,10 @@
 #include <WiFiS3.h>
 #include <WiFiUdp.h>
 
-const char* ssid     = "RPi5-Hotspot";
-const char* password = "12345678";
+const char* ssid     = "SSID";
+const char* password = "PASSWORD";
 
-IPAddress receiverIP(192,168,50,1);   // IP for RPi or PC
+IPAddress receiverIP(192,168,10,1);   // IP for RPi or PC
 const uint16_t receiverPort = 5005;
 
 WiFiUDP udp;
