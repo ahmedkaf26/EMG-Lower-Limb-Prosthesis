@@ -4,7 +4,7 @@
 const char* ssid     = "RPi5-Hotspot";
 const char* password = "12345678";
 
-IPAddress receiverIP(192,168,50,1);   // IP مال الرازبري/اللابتوب
+IPAddress receiverIP(192,168,50,1);   // IP for RPi or PC
 const uint16_t receiverPort = 5005;
 
 WiFiUDP udp;
