@@ -372,12 +372,10 @@ EMG-Lower-Limb-Prosthesis/
 ├── README.md
 ├── main.py
 ├── requirements.txt
-├── .gitignore
 │
 └── images/
-    ├── system_architecture.png
     ├── hardware_connection.png
-    └── prototype.jpg
+    └── prototype.png
 ```
 
 The generated model and dataset files are created locally during operation and should generally not be committed to GitHub unless intentionally included.
