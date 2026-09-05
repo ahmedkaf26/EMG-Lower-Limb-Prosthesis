@@ -1,0 +1,1 @@
+he system is divided into two separate parts: ML for EMG classification and Controller for motor control
